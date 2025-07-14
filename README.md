@@ -18,7 +18,7 @@ Proyecto listo para automatizar pruebas en apps móviles Android usando **Webdri
 
 1. Clona el repositorio:
    ```bash
-   git clone <URL_DEL_REPOSITORIO>
+   git clone https://github.com/eavendano01/webdriverio-android-sample.git
    cd mobile-automation-completo
    ```
 2. Instala dependencias:
