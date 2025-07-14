@@ -28,7 +28,7 @@ Proyecto listo para automatizar pruebas en apps móviles Android usando **Webdri
 3. (Opcional) Revisa y ajusta las capabilities en `test/config/wdio.android.conf.ts` para tu dispositivo/emulador:
    ```ts
    'appium:deviceName': 'Emulator-name',
-   'appium:platformVersion': '14',
+   'appium:platformVersion': 'android-version',
    'appium:app': require('path').resolve('./android-sample-app.apk'),
    'appium:automationName': 'UiAutomator2'
    ```
