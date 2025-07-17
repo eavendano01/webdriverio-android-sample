@@ -7,8 +7,8 @@ export const config = {
   capabilities: [
     {
       platformName: 'Android',
-      'appium:deviceName': 'PROCESAR-WDIO',
-      'appium:platformVersion': '14',
+      'appium:deviceName': 'my-phone-web',
+      'appium:platformVersion': '15.0',
       'appium:app': require('path').resolve('./android-sample-app.apk'),
       'appium:automationName': 'UiAutomator2'
     }

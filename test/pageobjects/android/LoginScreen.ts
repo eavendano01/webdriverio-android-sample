@@ -12,6 +12,10 @@ export class LoginScreen {
     return $('~button-LOGIN')
   }
 
+  get alertMessage() {
+    return $('//android.widget.Button[@resource-id="android:id/button1"]')
+  }
+
   async login(email: string, password: string) {
     await this.usernameField.setValue(email)
     await this.passwordField.setValue(password)
