@@ -9,7 +9,7 @@ export class FormsScreen {
     }
 
     get switchField() {
-        return $('~switch')
+        return $('//android.widget.Switch[@content-desc="switch"]')
     }
 
     get dropdownField() {
@@ -25,7 +25,7 @@ export class FormsScreen {
     }
 
     get buttonAlert() {
-        return $('~android:id/button1')
+        return $('//android.widget.Button[@resource-id="android:id/button1"]')
     }
 
     async typeSomething(words: string) {

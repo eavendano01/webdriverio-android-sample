@@ -99,4 +99,6 @@ npm run format
 ## 📄 Licencia
 
 MIT
-Author: Eduardo Avendaño
+
+## 📄 Author
+Eduardo Avendaño Lecona

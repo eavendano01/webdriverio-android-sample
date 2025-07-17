@@ -3,7 +3,13 @@ import { config as baseConfig } from '../../wdio.conf.base'
 
 export const config = {
   ...baseConfig,
-  specs: ['./test/specs/android/**/*.ts'],
+  specs: [
+    //'./test/specs/android/**/*.ts',  --> Original line to run all Android tests
+    // Specific tests to run for Android
+    './test/specs/android/home.android.spec.ts',
+    './test/specs/android/login.android.spec.ts',
+    './test/specs/android/forms.android.spec.ts'
+  ],
   capabilities: [
     {
       platformName: 'Android',
