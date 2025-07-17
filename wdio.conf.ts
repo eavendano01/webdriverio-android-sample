@@ -25,7 +25,11 @@ export const config: Options.Testrunner = {
     // of the config file unless it's absolute.
     //
     specs: [
-        ['./test/specs/android/**/*.ts']
+        [
+            './test/specs/android/home.android.spec.ts',
+            './test/specs/android/login.android.spec.ts',
+            './test/specs/android/forms.android.spec.ts'
+        ]
     ],
     // Patterns to exclude.
     exclude: [
