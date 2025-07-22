@@ -1,4 +1,3 @@
-
 # 📱 Mobile Automation con WebdriverIO + TypeScript
 
 Proyecto listo para automatizar pruebas en apps móviles Android usando **WebdriverIO v8**, **Appium**, **TypeScript** y el patrón **Page Object Model (POM)**. Incluye formateo con **Prettier**, linting con **ESLint** y estructura modular.
@@ -29,7 +28,7 @@ Proyecto listo para automatizar pruebas en apps móviles Android usando **Webdri
    ```ts
    'appium:deviceName': 'Emulator-name',
    'appium:platformVersion': 'android-version',
-   'appium:app': require('path').resolve('./android-sample-app.apk'),
+   'appium:app': path.resolve('./android-sample-app.apk'),
    'appium:automationName': 'UiAutomator2'
    ```
 4. Asegúrate de tener un emulador Android corriendo o un dispositivo conectado.
@@ -72,10 +71,13 @@ mobile-automation-completo/
 ## 🧼 Lint y formato
 
 Para revisar errores de estilo:
+
 ```bash
 npm run lint
 ```
+
 Para formatear el código automáticamente:
+
 ```bash
 npm run format
 ```

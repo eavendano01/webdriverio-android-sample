@@ -1,5 +1,4 @@
-
-import type { Testrunner } from '@wdio/types/build/Options'
+import type { Testrunner } from '@wdio/types/build/Options';
 
 export const config: Testrunner = {
   runner: 'local',
@@ -11,6 +10,6 @@ export const config: Testrunner = {
   reporters: ['spec'],
   services: ['appium'],
   mochaOpts: {
-    timeout: 60000
-  }
-}
+    timeout: 60000,
+  },
+};

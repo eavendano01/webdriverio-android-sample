@@ -1,43 +1,43 @@
 export class HomeScreen {
   get homeScreen() {
-    return $('~Home-screen')
+    return $('~Home-screen');
   }
 
   get title() {
-    return $('android=new UiSelector().text("WEBDRIVER")')
+    return $('android=new UiSelector().text("WEBDRIVER")');
   }
 
   get subtitle() {
-    return $('android=new UiSelector().text("Demo app for the appium-boilerplate")')
+    return $('android=new UiSelector().text("Demo app for the appium-boilerplate")');
   }
 
   get supportText() {
-    return $('android=new UiSelector().text("Support")')
+    return $('android=new UiSelector().text("Support")');
   }
 
   get homeTab() {
-    return $('~Home')
+    return $('~Home');
   }
 
   get webviewTab() {
-    return $('~Webview')
+    return $('~Webview');
   }
 
   get loginTab() {
-    return $('~Login')
+    return $('~Login');
   }
 
   get formsTab() {
-    return $('~Forms')
+    return $('~Forms');
   }
 
   get swipeTab() {
-    return $('~Swipe')
+    return $('~Swipe');
   }
 
   get dragTab() {
-    return $('~Drag')
+    return $('~Drag');
   }
 }
 
-export default new HomeScreen()
+export default new HomeScreen();

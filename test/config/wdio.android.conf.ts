@@ -1,5 +1,6 @@
 
-import { config as baseConfig } from '../../wdio.conf.base'
+import { config as baseConfig } from '../../wdio.conf.base';
+import path from 'path';
 
 export const config = {
   ...baseConfig,
@@ -9,8 +10,8 @@ export const config = {
       platformName: 'Android',
       'appium:deviceName': 'my-phone-web',
       'appium:platformVersion': '15.0',
-      'appium:app': require('path').resolve('./android-sample-app.apk'),
-      'appium:automationName': 'UiAutomator2'
-    }
-  ]
-}
+      'appium:app': path.resolve('./android-sample-app.apk'),
+      'appium:automationName': 'UiAutomator2',
+    },
+  ],
+};
